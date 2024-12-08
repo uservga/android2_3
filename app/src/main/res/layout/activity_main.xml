@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/total_workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загальна кількість тренувань: 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/total_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загальна кількість спалених калорій: 0"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Додати вправи"
+        android:onClick="goToAddWorkout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Історія вправ"
+        android:onClick="goToHistory" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вправи"
+        android:onClick="goToTips" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статистика"
+        android:onClick="goToStatistics" />
+</LinearLayout>
